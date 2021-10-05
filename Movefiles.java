@@ -67,6 +67,8 @@ class Movefiles {
         Path sDir = Paths.get("sorce directory");
 
         System.out.println("Inetiating transfer "+ tDir);
+
+        // construct path fith new file
         String newFilePath = tDir + File.separator + fileName;
         System.out.println("File "+ fileName);
         String sourceFilePath = sDir + File.separator + fileName;
